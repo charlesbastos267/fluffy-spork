@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TREINO ALEATORIO</title>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    
+    <header class="menu">
+        <a href="">LOGO</a>
+            <nav>
+                <ul>
+                    <li><a href="">CAVAQUINHO</a></li>
+                    <li><a href="">VIOLÃO</a></li>
+                    <li><a href="">PANDEIRO</a></li>
+                </ul>
+            </nav>
+     
+    </header>
+
+    <h1> flex box </h1>
+
+    <section class="flex">
+        <div>
+            <img src="lobo1.jpg" alt="">
+            <p>LEGENDA 01</p>
+        </div>
+
+        <div>
+            <img src="lobo2.jpg" alt="">
+            <p>LEGENDA 02</p>
+        </div>
+
+        <div>
+            <img src="lobo3.jpg" alt="">
+            <p>LEGENDA 03</p>
+        </div>
+
+        <div>
+            <img src="lobo1.jpg" alt="">
+            <p>LEGENDA 04</p>
+        </div>
+
+        <div>
+            <img src="lobo2.jpg" alt="">
+            <p>LEGENDA 05</p>
+        </div>
+
+        <div>
+            <div class="nois">
+                <div class="vida">CALCULADORA<br></div>
+                DIGITE UM VALOR: <input type="text" name="vl1" id="vl1" value="0"><br> <br>
+                DIGITE OUTRO VALOR: <input type="text" name="vl2" id="vl2" value="0"><br> <br>
+            
+                <input type="button" value="soma" onclick="somando()">
+                <input type="button" value="subtrair" onclick="subtraindo()">
+                <input type="button" value="multiplicar" onclick="multiplicando()">
+                <input type="button" value="dividir" onclick="dividindo()"><br> <br>
+                
+                RESPOSTA: <input type="text" name="res" id="res" value="0" readonly><br>
+                </div>
+        </div>
+   
+    </section>
+     
+    
+ 
+
+
+ 
+    <script src="java.js"></script>
+</body>
+</html>
